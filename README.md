@@ -11,9 +11,6 @@ Another :star:theme for oh-my-zsh
 ZSH_THEME="zeta"
 ```
 
-## Screenshot
-![screenshot](screenshot.png)
-
 ## Features
 * User name
 * Machine name
