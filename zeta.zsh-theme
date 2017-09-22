@@ -96,12 +96,16 @@ function get_space {
 
 # Prompt: # USER@MACHINE: DIRECTORY <BRANCH [STATUS]> --- (TIME_STAMP)
 # > command
+##### Allages
+# %{$blue%}@\
+# %{$cyan_bold%}$(get_box_name): \
+
+
 function print_prompt_head {
     local left_prompt="\
 %{$blue%}# \
 %{$green_bold%}$(get_usr_name)\
-%{$blue%}@\
-%{$cyan_bold%}$(get_box_name): \
+: \
 %{$yellow_bold%}$(get_current_dir)%{$reset_color%}\
 $(get_git_prompt) "
     local right_prompt="%{$blue%}($(get_time_stamp))%{$reset_color%} "
